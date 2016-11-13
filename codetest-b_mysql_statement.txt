@@ -1,0 +1,9 @@
+CREATE DATABASE codetest;
+CREATE TABLE codetest.CUSTOMERS(
+   ID   INT              NOT NULL,
+   NAME VARCHAR (20)     NOT NULL,
+   CREDITS  INT              NOT NULL,
+   LIFETIME_SPINS  INT 		NOT NULL,
+   SALT   VARCHAR(20)		NOT NULL,       
+   PRIMARY KEY (ID)
+);
